@@ -30,4 +30,4 @@
    cat flag.txt
    cat check.txt
    ```
- and submit the flag: **ACM{h3r3_1s_th3_p1x3l_2025}**
+10. submit the flag: **ACM{h3r3_1s_th3_p1x3l_2025}**
