@@ -4,7 +4,7 @@
 
 2. Expand the details and use the hint `Instagram @Lastname_HorsePower_` to find the Instagram username.
 
-3. On the Instagram profile @sohail_1497_ , click the link in the description and download the image named **ctf.jpeg**.
+3. On the Instagram profile **@sohail_1497_** , click the link in the description and download the image named **ctf.jpeg**.
 
 4. Open the terminal and navigate to the downloads folder where .jpeg is.
 
@@ -15,19 +15,19 @@
    steghide extract -sf ctf.jpeg
    ```
    
-6. YWhen prompted for a passphrase, just press Enter (there’s none).
+6. When prompted for a passphrase, just press Enter (there’s none).
 
-7.After extraction, you’ll get a ZIP file named **secret.zip**. Unzip it with:
+7. After extraction, you’ll get a ZIP file named **secret.zip**. Unzip it with:
 
-  ```
-  unzip secret.zip
-  ```
+   ```
+   unzip secret.zip
+   ```
 
 8. Inside the ZIP, there are two files: **check.txt** and **flag.txt** one contains the flag, the other is used for the next challenge, Digital Breadcrumbs.
 
 9. view the files using:
-  ```
-  cat flag.txt
-  cat check.txt
-  ```
+   ```
+   cat flag.txt
+   cat check.txt
+   ```
  and submit the flag: **ACM{h3r3_1s_th3_p1x3l_2025}**
